@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f8f6f8;
+   }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .task-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .icon {
+    font-size: 32px;
+    margin-right: 8px;
+  }
+  
+  .title {
+    color: #4b3f72;
+  }
+  
+  .highlight {
+    color: #a020f0;
+  }
+  
+  .subtitle {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+  }
+  
+  .textbox {
+    margin: 15px 0;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s border ease;
+  }
+  
+  .textbox input:focus {
+    border-color: #6a1b9a;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a1b9a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #7e3ccf;
+  }
+  
+  .google-btn-style {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  
+  .google-btn-style:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .google-icon-img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .divider {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .error-msg {
+    background-color: #ffe6e6;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
