@@ -1,28 +1,6 @@
-import React, { useState } from 'react';
-import './Login.css';
+import React from 'react'
 
 const LoginPage = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-
-    if (username === '' || password === '') {
-      setError('Please fill in all fields.');
-    } else if (username !== 'admin' || password !== '1234') {
-      setError('Invalid username or password.');
-    } else {
-      setError('');
-      alert('Login successful!');
-    }
-  };
-
-  const handleGoogleLogin = () => {
-    alert('Google login coming soon!!!');
-  };
-
   return (
     <div className="login-container">
       <div className="login-box">
