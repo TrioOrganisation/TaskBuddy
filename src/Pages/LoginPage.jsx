@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './Login.css';
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate()
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -16,12 +18,14 @@ const LoginPage = () => {
     } else {
       setError('');
       alert('Login successful!');
+      navigate('/dashboard')
     }
   };
 
   const handleGoogleLogin = () => {
     alert('Google login coming soon!!!');
   };
+
 
   return (
     <div className="login-container">
