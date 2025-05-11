@@ -125,4 +125,12 @@
     margin-bottom: 15px;
     border-radius: 5px;
   }
+  .banner-container img {
+    width: 400px;  
+    height: auto;  
+    max-height: 450px; 
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
   

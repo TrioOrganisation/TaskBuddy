@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
+import banner from '../Icon/banner.png'
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
@@ -75,6 +76,9 @@ const LoginPage = () => {
             Continue with Google
           </button>
         </form>
+      </div>
+      <div  className="banner-container">
+        <img src={banner} alt="Baneerr will Displayed Sonn" />
       </div>
     </div>
   );
